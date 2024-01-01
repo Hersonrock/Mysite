@@ -9,6 +9,11 @@
     color:white;
 
 }
+#img_container{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
 
 #meme_img{
     width: 100%;
@@ -22,12 +27,15 @@
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
+    position: absolute;
 }
 
 #memetxt2{
     font-family: 'Libre Baskerville', serif;
     font-size: 1rem;
     text-align: center;
+    position: absolute;
+    top : 500px;
 }
 
 #main{
